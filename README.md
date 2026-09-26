@@ -1,6 +1,6 @@
 # 🎟️ TicketRush
 
-A stylish, autoscaling-ready ticket booking platform — built as a microservices project.
+An autoscaling-ready ticket booking platform — built as a microservices project.
 This is **Week 1**: Auth + Catalog services, PostgreSQL, Redis caching, and a fully
 styled React frontend, wired together and startable with **one command**.
 
