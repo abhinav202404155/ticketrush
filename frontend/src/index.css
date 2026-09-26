@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: #3b63e8;
+  color: white;
+}
+
+@layer utilities {
+  .bg-noise {
+    background-image: radial-gradient(circle at 1px 1px, rgba(255,255,255,0.06) 1px, transparent 0);
+    background-size: 22px 22px;
+  }
+  .text-gradient {
+    background: linear-gradient(90deg, #a5b4fc, #f0abfc 60%, #fca5a5);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+}
